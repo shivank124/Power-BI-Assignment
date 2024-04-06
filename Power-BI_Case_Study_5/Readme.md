@@ -59,3 +59,51 @@ g) Change the name of the table to States with Codes.
 h) Rename the United States of America to State Name and US USA 840 to State Code Long.  
 
 i) Merge this data with Sales by States, displaying only the State Code Long field.  
+
+j) If the Privacy level dialog box appears, click on Organizational and then on Save.  
+
+k) If the Information is required dialog box appears, then click on Continue.  
+
+l) Name the new column as State Code.  
+
+m) Click on Close and apply.  
+
+n) Hide the states with codes in the Report view.  
+
+o) Finally, save the file.  
+
+### Add visualizations
+a) Add a gauge chart with LineTotal in the value Properties and TargetSales in the Target value
+Properties.  
+
+b) Set the Max value of the gauge to 1460000, and name it as Target Sales.  
+
+c) Create a pie chart with CompanyName and LineTotal; name it as Top Selling Companies,
+and center-align it.  
+
+d) Create a stacked bar chart with MainCategory and OrderQty columns; name it as Sales by
+Main Category, and then, center-align it.  
+
+e) Click on Analysis, expand the Constant Line, and click on Add. Then, set the value to 500, and
+change the color to Red.  
+
+f) Create a donut chart with MainCategory and LineTotal.  
+
+g) Name it as Sales by Main Category, and center-align it.  
+
+h) Create a stacked column chart and add Product, LineTotal, and MainCategory.  
+
+i) Filter the products to display only those with sales greater than US$32,000, and then, filter
+the list to display only ‘bikes’.  
+
+j) Name it as Top Selling Bikes, and center-align it.  
+
+k) Add a Constant Line, with the value set to 35000, and then set the color to Red.  
+
+l) Save the report, and add a new page to the report.  
+
+m) Create a map visual with City and LineTotal, and name it as World Sales by City.  
+
+n) Add a map visual with State Code and SalesYTD, and rename the map to Sales by State.  
+
+o) Finally, save the report.  
